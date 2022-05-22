@@ -1,0 +1,70 @@
+*{
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  body{
+    background: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+  }
+  
+  .container{
+    
+    width: 95%;
+    height: 100vh;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tic-tac-toe{
+    
+    display: grid;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 395px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+  }
+  
+  .blck{
+    border: 3.5px solid gold;
+    
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  
+  span{
+    font-size: 4.5rem;
+    color: gold;
+  }
+  
+  .screen{
+    font-size: 1.5rem;
+    color: gold;
+  }
+  
+  #title{
+    font-size: 2rem;
+  }
+  
+  h1, h2{
+    color: gold;
+    font-size: 1.7rem;
+  }
+  
+  
+  #x_pnts{
+    font-size: 1.7rem;
+  }
+  
+  #o_pnts{
+    font-size: 1.7rem;
+  }
+  
+  
+  
